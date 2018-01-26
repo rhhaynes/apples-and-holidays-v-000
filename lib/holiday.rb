@@ -36,6 +36,6 @@ end
 def all_holidays_with_bbq(holiday_hash)
   arr = []
   holiday_hash.each do |sea,sea_hash|
-    arr << sea if sea_hash.values.flatten.any?{}
+    arr << sea if sea_hash.values.flatten.any?{|v| v=="BBQ"}
   end
 end
