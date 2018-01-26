@@ -31,7 +31,6 @@ def all_supplies_in_holidays(holiday_hash)
       puts "#{arr.join(", ")}"
     end
   end
-  puts "TEXT"
 end
 
 # ---------------------------------------------
